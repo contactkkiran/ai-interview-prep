@@ -48,8 +48,9 @@ The model predicts: New Delhi
 Because during training, it learned that this text pattern usually continues like that.
 
 ### Important Interview Line
-You can say:
-An LLM is a transformer-based model trained on massive text data to understand and generate natural language by predicting the next token.
+    You can say:
+    An LLM is a transformer-based model trained on massive text data to understand
+    and generate natural language by predicting the next token.
 
 ## 2. What Is A Token?
 
