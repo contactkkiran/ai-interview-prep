@@ -75,9 +75,36 @@ Why tokens matter:
 - LLM speed depends on input and output token count.
 - Context windows are measured in tokens.
 
-Interview connection:
+### why Tokens Matter:
+    LLMs do not directly read full sentences like humans. They read tokens.
+    Interview connection:
 
-If someone asks about serving 50,000 users cheaply and quickly, token count matters a lot.
+Tokens affect:
+- cost
+- speed
+- context window
+- memory limit
+- latency
+## Why does token count affect cost and speed?
+Token count affects cost and speed because the model has to process every input token and generate every output token. More tokens mean more computation, higher cost, and slower response.
+
+### Keep this in your head:
+    More tokens = more work for model = more cost + more latency
+
+## Interview perspective :
+    ### A company needs a 70B open-source LLM serving 50,000 users daily
+        or If someone asks about
+        serving 50,000 users cheaply and quickly, token count matters a lot.
+        Response must be under 2 seconds.
+        Infrastructure cost must stay low.
+    How would you design the inference system?
+    In that question, token count matters because:
+        more input tokens = more processing time
+        more output tokens = more generation time
+        more total tokens = more GPU usage
+        more GPU usage = higher cost
+    Answer :
+        For high-scale LLM serving, token count directly impacts latency and cost because every input and output token consumes GPU compute. Reducing unnecessary tokens is one of the first optimization steps.
 
 ## 3. What Is A Context Window?
 
