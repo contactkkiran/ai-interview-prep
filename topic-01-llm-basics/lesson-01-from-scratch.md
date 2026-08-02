@@ -40,6 +40,17 @@ Output: RAG is a way to give an LLM external documents before it answers.
 
 The model does not "know" like a human. It has learned patterns from training data and uses those patterns to generate likely next tokens.
 
+Very Simple Example:
+
+you type : The capital of India is
+The model predicts: New Delhi
+
+Because during training, it learned that this text pattern usually continues like that.
+
+Important Interview Line
+You can say:
+An LLM is a transformer-based model trained on massive text data to understand and generate natural language by predicting the next token.
+
 ## 2. What Is A Token?
 
 A token is a small piece of text.
