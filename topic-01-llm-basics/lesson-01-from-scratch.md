@@ -23,7 +23,15 @@ Simple idea:
 Input text -> model -> output text
 ```
 
-Example:
+Examples of AI Models:
+
+-GPT
+-Claude
+-Llama
+-Gemini
+-Mistral
+
+Example :
 
 ```text
 Input: Explain RAG simply.
