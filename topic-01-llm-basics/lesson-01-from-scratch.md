@@ -23,13 +23,13 @@ Simple idea:
 Input text -> model -> output text
 ```
 
-Examples of AI Models:
+AI Models:
 
--GPT
--Claude
--Llama
--Gemini
--Mistral
+- GPT
+- Claude
+- Llama
+- Gemini
+- Mistral
 
 Example :
 
