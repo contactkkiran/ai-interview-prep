@@ -5,12 +5,12 @@
 # Before we talk about RAG, agents, caching, or inference systems, you must first understand:
 
 
-What is an LLM?
-What is a token?
-What is a prompt?
-What is context window?
-Why LLMs cost money?
-Why LLMs can be slow?
+- What is an LLM?
+- What is a token?
+- What is a prompt?
+- What is context window?
+- Why LLMs cost money?
+- Why LLMs can be slow?
 
 
 LLM means Large Language Model.
