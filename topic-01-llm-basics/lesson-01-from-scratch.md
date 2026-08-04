@@ -133,6 +133,19 @@ Interview connection:
 
 The coding-agent question says a repo has 20M lines of code. That is far bigger than a context window, so the system needs retrieval, indexing, summaries, and code search.
 
+Instead of only saying
+Context Window = memory
+
+We'll explain
+Why context windows exist
+Why GPUs impose limits
+How token attention scales
+Why larger context isn't always the answer
+Sliding windows
+Long-context models
+Context compression
+Hierarchical retrieval
+
 ## 4. What Are Embeddings?
 
 Embeddings turn text into numbers that capture meaning.
@@ -153,6 +166,22 @@ Embeddings are used for:
 - semantic caching
 - recommendation systems
 - duplicate-question detection
+
+We'll cover
+- Why embeddings exist
+- Dense vectors
+- Sparse vectors
+- Semantic similarity
+- Cosine similarity
+- Dot product
+- Euclidean distance
+- Embedding dimensions
+- Chunk embeddings
+- Metadata
+- Then connect to
+- ServiceNow Semantic Cache
+   and
+- Paytm Multi-hop Retrieval
 
 Interview connection:
 
@@ -178,6 +207,52 @@ The bank approved the loan because it trusted the customer.
 
 The model needs to understand that "it" probably refers to "the bank", not "the loan".
 
+
+We'll explain
+  Not just
+  Transformer uses Attention
+We'll build from scratch:
+    RNN Problems
+
+↓
+
+LSTM Problems
+
+↓
+
+Transformer
+
+↓
+
+Encoder
+
+↓
+
+Decoder
+
+↓
+
+Self Attention
+
+↓
+
+Multi Head
+
+↓
+
+Feed Forward
+
+↓
+
+Residual Connections
+
+↓
+
+Layer Norm
+
+↓
+
+Output
 ## 6. What Is Attention?
 
 Attention is the mechanism that lets the model focus on relevant tokens.
