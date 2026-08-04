@@ -511,4 +511,6 @@ I want them to finish it and say:
 
 "I can explain AI concepts from first principles, answer senior AI interview questions confidently, design production-grade architectures, and demonstrate working implementations."
 
-If we maintain this quality across all topics, I genuinely believe ai-interview-prep can become a standout GitHub repository for AI Engineer interview preparation—not because it covers the most topics, but because it teaches each topic deeply, practically, and in the context of real engineering interviews.
+If we maintain this quality across all topics, I genuinely believe ai-interview-prep can become a standout GitHub repository for AI Engineer interview preparation—not because it covers the most topics, but because it teaches each topic deeply, practically, and in the context of real engineering interviews
+
+text
