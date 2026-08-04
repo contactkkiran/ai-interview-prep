@@ -253,7 +253,31 @@ Layer Norm
 ↓
 
 Output
+
+Attention
+We'll explain visually
+
+I deposited money in the bank.
+
+↓
+
+bank
+
+↓
+
+River?
+
+Financial?
+
+↓
+
+Attention determines this.
 ## 6. What Is Attention?
+
+- Self Attention
+- Cross Attention
+- Masked Attention
+- Multi Head Attention
 
 Attention is the mechanism that lets the model focus on relevant tokens.
 
@@ -271,6 +295,21 @@ When someone asks "Explain Transformer architecture", you must mention self-atte
 ## 7. What Is A Prompt?
 
 A prompt is the instruction or input you give the model.
+
+- Instead of saying
+- Prompt = input
+- We'll cover
+- Zero-shot
+- One-shot
+- Few-shot
+- Role prompting
+- Chain of Thought
+- ReAct
+- Structured Output
+- XML prompts
+- JSON prompts
+- Tool prompts
+- Prompt Injection
 
 Types:
 
@@ -300,6 +339,15 @@ Common causes:
 - weak prompt constraints
 - model guessing instead of saying "I do not know"
 
+How to avoid them
+- Topics include:
+- Missing knowledge
+- Weak grounding
+- Retrieval failure
+- Prompt ambiguity
+- Model confidence
+- Temperature effects
+
 Interview connection:
 
 Questions about reducing hallucinations require grounding, retrieval, citations, validation, and sometimes human review.
@@ -316,7 +364,38 @@ Examples:
 - verified sources
 - citations
 
+Different grounding sources
+Database
+
+↓
+
+API
+
+↓
+
+Documents
+
+↓
+
+Knowledge Graph
+
+↓
+
+Search
+
+↓
+
+Tools
+
 RAG is one common grounding technique.
+
+Then compare :
+    Grounding
+    vs
+    Fine Tuning
+    vs
+    RAG
+
 
 ## 10. Today's Minimum Interview Answer
 
@@ -327,3 +406,109 @@ An LLM is a Transformer-based model trained on large text datasets to predict an
 ```
 
 Do not memorize only this. Understand each word slowly.
+
+###Company Interview Questions
+I think this will be the most valuable section.
+Instead of generic questions, we'll include realistic interview prompts inspired by actual industry scenarios.
+Example:
+    Tech Mahindra
+        Repository Understanding
+    Paytm
+       Multi-hop Retrieval
+    Virtusa
+       Tables in RAG
+    ServiceNow
+        Semantic Cache
+    HDFC
+        Knowledge Refresh
+    Razorpay
+        Financial Guardrails
+    TCS
+        LLM Inference
+    Zapier
+        Agent Framework Selection
+
+For each one, we'll include:
+- The question
+- What the interviewer is really testing
+- How to think about it
+- A senior-level answer
+- ommon mistakes
+- Follow-up questions
+- A production architecture discussion
+
+# Practical Project
+This is where your repository becomes unique.
+Instead of stopping at
+    Context Window
+we immediately build Repository Understanding Agent under 'practical- projects' dir
+
+Step 1
+
+Read Repository
+
+↓
+
+Step 2
+
+Parse Python Files
+
+↓
+
+Step 3
+
+Create Chunks
+
+↓
+
+Step 4
+
+Generate Embeddings
+
+↓
+
+Step 5
+
+Store in Vector DB
+
+↓
+
+Step 6
+
+Lexical Search
+
+↓
+
+Step 7
+
+Dependency Graph
+
+↓
+
+Step 8
+
+Summaries
+
+↓
+
+Step 9
+
+Context Builder
+
+↓
+
+Step 10
+
+Repository Q&A Agent
+
+## By the end of Topic 01, learners won't just know what a context window is—they'll understand why repository-scale AI assistants need retrieval, indexing, and code graphs, and they'll have built a working prototype.
+
+### My goal for this repository
+I don't want someone to finish this repository and say:
+"I know LangChain."
+
+I want them to finish it and say:
+
+"I can explain AI concepts from first principles, answer senior AI interview questions confidently, design production-grade architectures, and demonstrate working implementations."
+
+If we maintain this quality across all topics, I genuinely believe ai-interview-prep can become a standout GitHub repository for AI Engineer interview preparation—not because it covers the most topics, but because it teaches each topic deeply, practically, and in the context of real engineering interviews.
