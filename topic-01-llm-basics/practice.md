@@ -1,8 +1,10 @@
-# Practice For Topic 1
+# 📝 Practice for Topic 1
+
+## 🎯 Goal
 
 Do these without writing long answers.
 
-## Round 1: Definitions
+## 🧠 Round 1: Definitions
 
 1. What is an LLM in one sentence?
 2. What is a token?
@@ -11,9 +13,9 @@ Do these without writing long answers.
 5. What is hallucination?
 6. What is grounding?
 
-## Round 2: Mini Interview Prompts
+## 💬 Round 2: Mini Interview Prompts
 
-Answer each in 3-5 lines only.
+Answer each in 3–5 lines only.
 
 1. Why do LLM apps become expensive?
 2. Why can a model fail on a 20M-line codebase?
@@ -21,7 +23,7 @@ Answer each in 3-5 lines only.
 4. Why can semantic caching reduce cost?
 5. Why can semantic caching become dangerous when source documents change?
 
-## Round 3: Explain Like A Beginner
+## 👶 Round 3: Explain Like a Beginner
 
 Explain these to a friend:
 
@@ -30,7 +32,7 @@ Explain these to a friend:
 3. Attention
 4. Hallucination
 
-## Rule
+## ⚠️ Rule
 
 Do not jump to advanced RAG yet. If these basics are weak, later topics will feel confusing.
 

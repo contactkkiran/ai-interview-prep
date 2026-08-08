@@ -1,71 +1,70 @@
-# Slow Study Plan
+# 📚 Slow Study Plan
 
-## Day 1
+## 🌅 Day 1
 
-Learn:
+### 📖 Learn
 
 - LLM
-- token
-- context window
+- Token
+- Context window
 
-Practice:
+### ✍️ Practice
 
 - Explain why token count affects cost and speed.
 
-## Day 2
+## 🌤️ Day 2
 
-Learn:
+### 📖 Learn
 
-- embeddings
-- semantic similarity
+- Embeddings
+- Semantic similarity
 
-Practice:
+### ✍️ Practice
 
 - Explain why two differently worded questions can be considered similar.
 
-## Day 3
+## ☀️ Day 3
 
-Learn:
+### 📖 Learn
 
 - Transformer
-- attention
+- Attention
 
-Practice:
+### ✍️ Practice
 
 - Explain self-attention without math.
 
-## Day 4
+## 🌤️ Day 4
 
-Learn:
+### 📖 Learn
 
-- prompts
-- system prompts
-- prompt injection basics
+- Prompts
+- System prompts
+- Prompt injection basics
 
-Practice:
+### ✍️ Practice
 
 - Explain why agents need clear tool instructions.
 
-## Day 5
+## 🌙 Day 5
 
-Learn:
+### 📖 Learn
 
-- hallucination
-- grounding
-- why RAG exists
+- Hallucination
+- Grounding
+- Why RAG exists
 
-Practice:
+### ✍️ Practice
 
 - Explain why adding documents can improve answers but does not guarantee correctness.
 
-## Day 6
+## 🌈 Day 6
 
-Review:
+### 🔍 Review
 
-- all definitions
-- uploaded interview-question map
+- All definitions
+- Uploaded interview-question map
 
-Practice:
+### ✍️ Practice
 
-- Give short answers to the Round 2 prompts in `practice.md`.
-
+- Give short answers to the Round 2 prompts in practice.md.
