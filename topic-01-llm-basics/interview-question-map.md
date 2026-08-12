@@ -1,7 +1,5 @@
 # 🗺️ Interview Question Map for Topic 1
 
-## 💡 Interview Note: Keep the interview answer high-level and follow the end-to-end flow; the detailed explanation is provided for reference and deeper understanding.
-## 📌 Overview
 
 Topic 1 does not fully solve all uploaded questions, but it is the foundation under them.
 

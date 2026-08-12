@@ -1,37 +1,21 @@
 # 🎯 Topic 01 — LLM Basics Interview Cheat Sheet
 
-This cheat sheet contains short interview-ready answers for the
-core concepts covered in Topic 01.
+This cheat sheet contains short interview-ready answers for the core concepts covered in Topic 01.
 
-⚠️ Do not memorize these answers blindly.
-
-The goal is to understand every phrase and be able to explain it
-naturally during an interview.
+> ⚠️ **Do not memorize these answers blindly.**
+> The goal is to understand every phrase and be able to explain it naturally during an interview.
 
 ---
 
-# 1. 🤖 What Is an LLM?
+## 1. 🤖 What Is an LLM?
 
 ### 🎯 Minimum Interview Answer
 
-> An LLM is a Transformer-based model trained on large text datasets
-> to predict and generate tokens. It works inside a context window,
-> uses attention to relate tokens, and can be improved with prompts,
-> retrieval, tools, and grounding to reduce hallucinations.
+> An LLM is a Transformer-based model trained on large text datasets to predict and generate tokens. It works inside a context window, uses attention to relate tokens, and can be improved with prompts, retrieval, tools, and grounding to reduce hallucinations.
 
-### 🔑 Keywords
+**🔑 Keywords:** Transformer · Tokens · Training data · Context window · Attention · Prompt · Retrieval · Grounding
 
-- Transformer
-- Tokens
-- Training data
-- Context window
-- Attention
-- Prompt
-- Retrieval
-- Grounding
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - Why is it called a language model?
 - Why is it called "large"?
 - What is a token?
@@ -42,26 +26,15 @@ naturally during an interview.
 
 ---
 
-# 2. 🪙 What Is a Token?
+## 2. 🪙 What Is a Token?
 
 ### 🎯 Minimum Interview Answer
 
-> A token is a unit of text processed by an LLM. A token can represent
-> a complete word, part of a word, punctuation, or another text unit.
-> Input and output are processed as tokens, which directly affects
-> context usage, latency, and cost.
+> A token is a unit of text processed by an LLM. A token can represent a complete word, part of a word, punctuation, or another text unit. Input and output are processed as tokens, which directly affects context usage, latency, and cost.
 
-### 🔑 Keywords
+**🔑 Keywords:** Tokenization · Input tokens · Output tokens · Context · Cost · Latency
 
-- Tokenization
-- Input tokens
-- Output tokens
-- Context
-- Cost
-- Latency
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - Why don't LLMs process words directly?
 - Why does token count affect cost?
 - Why does token count affect latency?
@@ -70,27 +43,15 @@ naturally during an interview.
 
 ---
 
-# 3. 📦 What Is a Context Window?
+## 3. 📦 What Is a Context Window?
 
 ### 🎯 Minimum Interview Answer
 
-> A context window is the maximum amount of tokenized information an
-> LLM can process as part of a request. It can include the system
-> prompt, user input, conversation history, retrieved documents,
-> tool results, and the model's response.
+> A context window is the maximum amount of tokenized information an LLM can process as part of a request. It can include the system prompt, user input, conversation history, retrieved documents, tool results, and the model's response.
 
-### 🔑 Keywords
+**🔑 Keywords:** Token limit · System prompt · User prompt · Chat history · Retrieved context · Tool results · Model output
 
-- Token limit
-- System prompt
-- User prompt
-- Chat history
-- Retrieved context
-- Tool results
-- Model output
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - Why do context windows have limits?
 - Does a larger context window solve every problem?
 - How does context size affect latency?
@@ -99,27 +60,15 @@ naturally during an interview.
 
 ---
 
-# 4. 🧠 What Are Embeddings?
+## 4. 🧠 What Are Embeddings?
 
 ### 🎯 Minimum Interview Answer
 
-> Embeddings are numerical vector representations of data that capture
-> semantic meaning. Text with similar meaning tends to have similar
-> vector representations, making embeddings useful for semantic search,
-> RAG, recommendations, duplicate detection, and semantic caching.
+> Embeddings are numerical vector representations of data that capture semantic meaning. Text with similar meaning tends to have similar vector representations, making embeddings useful for semantic search, RAG, recommendations, duplicate detection, and semantic caching.
 
-### 🔑 Keywords
+**🔑 Keywords:** Vector · Semantic meaning · Similarity · Semantic search · RAG · Vector database · Semantic cache
 
-- Vector
-- Semantic meaning
-- Similarity
-- Semantic search
-- RAG
-- Vector database
-- Semantic cache
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - What is cosine similarity?
 - Why are embeddings useful for RAG?
 - What is the difference between lexical and semantic search?
@@ -129,27 +78,15 @@ naturally during an interview.
 
 ---
 
-# 5. 🏗️ What Is a Transformer?
+## 5. 🏗️ What Is a Transformer?
 
 ### 🎯 Minimum Interview Answer
 
-> A Transformer is a neural network architecture that uses attention
-> mechanisms to model relationships between tokens. Transformers form
-> the foundation of most modern LLMs and support efficient processing
-> of language compared with earlier sequence-based architectures.
+> A Transformer is a neural network architecture that uses attention mechanisms to model relationships between tokens. Transformers form the foundation of most modern LLMs and support efficient processing of language compared with earlier sequence-based architectures.
 
-### 🔑 Keywords
+**🔑 Keywords:** Attention · Self-attention · Encoder · Decoder · Multi-head attention · Feed-forward network · Positional information
 
-- Attention
-- Self-attention
-- Encoder
-- Decoder
-- Multi-head attention
-- Feed-forward network
-- Positional information
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - Why were Transformers introduced?
 - What problem did they solve compared with RNNs?
 - What is self-attention?
@@ -159,27 +96,15 @@ naturally during an interview.
 
 ---
 
-# 6. 🎯 What Is Attention?
+## 6. 🎯 What Is Attention?
 
 ### 🎯 Minimum Interview Answer
 
-> Attention is a mechanism that allows a model to determine which
-> tokens are more relevant to each other when processing a sequence.
-> Self-attention allows tokens to relate to other tokens in the same
-> sequence, while multi-head attention allows the model to learn
-> different relationships in parallel.
+> Attention is a mechanism that allows a model to determine which tokens are more relevant to each other when processing a sequence. Self-attention allows tokens to relate to other tokens in the same sequence, while multi-head attention allows the model to learn different relationships in parallel.
 
-### 🔑 Keywords
+**🔑 Keywords:** Query · Key · Value · Self-attention · Cross-attention · Multi-head attention
 
-- Query
-- Key
-- Value
-- Self-attention
-- Cross-attention
-- Multi-head attention
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - What are Query, Key, and Value?
 - What is self-attention?
 - What is cross-attention?
@@ -189,28 +114,15 @@ naturally during an interview.
 
 ---
 
-# 7. ✍️ What Is a Prompt?
+## 7. ✍️ What Is a Prompt?
 
 ### 🎯 Minimum Interview Answer
 
-> A prompt is the instruction and contextual input provided to an LLM
-> to guide its behavior and output. Effective prompts can define the
-> task, constraints, context, expected format, examples, and available
-> tools.
+> A prompt is the instruction and contextual input provided to an LLM to guide its behavior and output. Effective prompts can define the task, constraints, context, expected format, examples, and available tools.
 
-### 🔑 Keywords
+**🔑 Keywords:** System prompt · User prompt · Instructions · Context · Examples · Constraints · Structured output · Tools
 
-- System prompt
-- User prompt
-- Instructions
-- Context
-- Examples
-- Constraints
-- Structured output
-- Tools
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - What is zero-shot prompting?
 - What is few-shot prompting?
 - What is role prompting?
@@ -220,16 +132,13 @@ naturally during an interview.
 
 ---
 
-# 8. ⚠️ What Is Hallucination?
+## 8. ⚠️ What Is Hallucination?
 
 ### 🎯 Minimum Interview Answer
 
-> Hallucination occurs when an LLM generates information that is
-> incorrect, unsupported, or fabricated while presenting it as a
-> plausible answer.
+> Hallucination occurs when an LLM generates information that is incorrect, unsupported, or fabricated while presenting it as a plausible answer.
 
-### 🔑 Common Causes
-
+**🔑 Common Causes**
 - Missing information
 - Ambiguous questions
 - Outdated knowledge
@@ -238,8 +147,7 @@ naturally during an interview.
 - Model guessing
 - Incorrect context
 
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - How do you reduce hallucinations?
 - Does lowering temperature eliminate hallucinations?
 - Can RAG completely eliminate hallucinations?
@@ -248,28 +156,15 @@ naturally during an interview.
 
 ---
 
-# 9. 🛡️ What Is Grounding?
+## 9. 🛡️ What Is Grounding?
 
 ### 🎯 Minimum Interview Answer
 
-> Grounding means providing an LLM with trusted, external information
-> and constraining the response to that information. Grounding can use
-> retrieved documents, databases, APIs, search systems, tools, or other
-> verified sources.
+> Grounding means providing an LLM with trusted, external information and constraining the response to that information. Grounding can use retrieved documents, databases, APIs, search systems, tools, or other verified sources.
 
-### 🔑 Keywords
+**🔑 Keywords:** Trusted sources · Retrieval · Documents · Database · APIs · Tools · Citations · Verification
 
-- Trusted sources
-- Retrieval
-- Documents
-- Database
-- APIs
-- Tools
-- Citations
-- Verification
-
-### 🎤 Possible Follow-ups
-
+**🎤 Possible Follow-ups**
 - How does RAG provide grounding?
 - What happens when the retrieved information is wrong?
 - What is the difference between grounding and fine-tuning?
@@ -278,36 +173,28 @@ naturally during an interview.
 
 ---
 
-# 💰 10. Why Do LLM Applications Become Expensive?
+## 10. 💰 Why Do LLM Applications Become Expensive?
 
 ### 🎯 Minimum Interview Answer
 
-> LLM cost is strongly influenced by the number of input and output
-> tokens processed and the model used. Larger prompts, longer
-> conversations, unnecessary retrieved context, and large outputs
-> increase computation, latency, and cost.
+> LLM cost is strongly influenced by the number of input and output tokens processed and the model used. Larger prompts, longer conversations, unnecessary retrieved context, and large outputs increase computation, latency, and cost.
 
-### 🔑 Optimization Techniques
-
-- Reduce unnecessary context
-- Retrieve only relevant information
-- Control output length
-- Use appropriate models
-- Cache repeated requests
-- Batch workloads where appropriate
-- Use smaller models where sufficient
+**🔑 Optimization Techniques**
+- ✅ Reduce unnecessary context
+- ✅ Retrieve only relevant information
+- ✅ Control output length
+- ✅ Use appropriate models
+- ✅ Cache repeated requests
+- ✅ Batch workloads where appropriate
+- ✅ Use smaller models where sufficient
 
 ---
 
-# 🏢 11. How Would You Handle a 20M-Line Repository?
+## 11. 🏢 How Would You Handle a 20M-Line Repository?
 
 ### 🎯 Minimum Interview Answer
 
-> I would not attempt to place the entire repository into the LLM
-> context. I would treat the repository as a retrieval corpus and
-> combine structured code indexing, lexical and semantic search,
-> dependency graphs, hierarchical summaries, iterative context
-> expansion, and incremental indexing.
+> I would not attempt to place the entire repository into the LLM context. I would treat the repository as a retrieval corpus and combine structured code indexing, lexical and semantic search, dependency graphs, hierarchical summaries, iterative context expansion, and incremental indexing.
 
 ### 🏗️ Core Architecture
 
@@ -316,7 +203,7 @@ naturally during an interview.
         ↓
 🧠 Query Analysis
         ↓
-🔎 Lexical Search + 🧠 Semantic Search
+🔎 Lexical Search  +  🧠 Semantic Search
         ↓
 🔷 Symbol / Code Index
         ↓
@@ -329,3 +216,4 @@ naturally during an interview.
 🤖 LLM
         ↓
 💻 Answer / Code Change
+```

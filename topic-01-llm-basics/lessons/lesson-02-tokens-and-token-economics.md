@@ -1,6 +1,6 @@
-## 2. What is a token?
+## 2. What Is a Token?
 
-A token is a small piece of text.
+A **token** is a small piece of text.
 
 It can be:
 
@@ -9,28 +9,36 @@ It can be:
 - punctuation
 - a space-like text unit
 
-Example:
+### Example
 
 ```text
 "unbelievable" might become "un", "believ", "able"
 ```
 
-### Why tokens matter
+---
 
-- 🟢 LLM cost is usually based on tokens
-- 🟡 LLM speed depends on input and output token count
-- 🔵 Context windows are measured in tokens
+### Why Tokens Matter
 
-LLMs do not read full sentences the way humans do. They read tokens.
+| | Impact |
+|---|---|
+| 🟢 | LLM cost is usually based on tokens |
+| 🟡 | LLM speed depends on input and output token count |
+| 🔵 | Context windows are measured in tokens |
 
-Tokens affect:
+LLMs do not read full sentences the way humans do. **They read tokens.**
 
-- 🟢 cost
-- 🟡 speed
-- 🔵 context window
-- 🟠 memory limit
-- 🔴 latency
+### Tokens Affect
 
-### Key idea
+| | Factor |
+|---|---|
+| 🟢 | Cost |
+| 🟡 | Speed |
+| 🔵 | Context window |
+| 🟠 | Memory limit |
+| 🔴 | Latency |
 
-More tokens = more work for the model = more cost + more latency
+---
+
+### 🎯 Key Idea
+
+> **More tokens = more work for the model = more cost + more latency**

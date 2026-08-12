@@ -1,13 +1,17 @@
-# 8. What is attention?
+## 8. What Is Attention?
 
-## 🧠 Core Idea
+### 🧠 Core Idea
 
-- Self-attention
-- Cross-attention
-- Masked attention
-- Multi-head attention
+| Type | |
+|---|---|
+| Self-attention | Relates tokens within the same sequence to each other |
+| Cross-attention | Relates tokens between two different sequences (e.g., encoder ↔ decoder) |
+| Masked attention | Prevents a token from attending to future tokens (used during generation) |
+| Multi-head attention | Runs several attention patterns in parallel |
 
-Attention is the mechanism that lets the model focus on relevant tokens.
+Attention is the mechanism that lets the model **focus on relevant tokens**.
+
+---
 
 ### 💡 Simple Idea
 
@@ -16,13 +20,13 @@ For each token, attention asks:
 "Which other tokens should I look at?"
 ```
 
-## 🎤 Interview Connection
-
-When someone asks "Explain Transformer architecture", mention:
-
-- Self-attention
-- Multi-head attention
-- Encoder/decoder structure
-- Positional encoding
-
 ---
+
+### 🎤 Interview Connection
+
+When someone asks *"Explain Transformer architecture,"* mention:
+
+- ✅ Self-attention
+- ✅ Multi-head attention
+- ✅ Encoder/decoder structure
+- ✅ Positional encoding
